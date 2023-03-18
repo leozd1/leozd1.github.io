@@ -1,0 +1,44 @@
+/* 
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+} 
+*/
+
+/* Os paragrafos*/
+p{
+  font-size: 17px;
+  font-family: Arial, Helvetica;
+  text-align: center;
+}
+
+h3{
+  font-family: Arial, Helvetica;
+  color: rgb(0, 102, 255);
+}
+
+/*Fomularios */
+.formulario{
+  box-align: center;
+}
+
+/* Define as cores para o dark mode */
+.dark-mode {
+  background-color: #222222;
+  color: #ffffff;
+  }
+
+/* Define as cores para o dark mode do switch */
+.form-check-label {
+  color: #ffffff;
+}
+
+/* Define as cores para o light mode do switch */
+.form-check-input:checked ~ .form-check-label {
+  color: #ffffff;
+}
+.form-check-input:checked {
+  background-color: #222222;
+}

@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!--Mini Css = Style-->
+    <style>
+      footer { 
+          background-color: rgb(111, 152, 234); 
+          color:rgb(36, 112, 36); 
+      }
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!--Dark mode CSS -->
+    <link rel="stylesheet" href="css/Style.css">
+    
+    <!--icones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" type="imagens\nerd-logo.ico" href="imagens\nerd-logo.ico">
+    <title>Pagina Modelo</title>
+  </head>
+  <body id="" class="bg-light text-dark" >
+    <!--Menu principal-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="height: 80px;">
+      <div class="container">
+        <a class="navbar-brand text-danger " href="#">
+          <img src="imagens\icons8-beta-96.png" alt="" width="50" weight="50" class="d-inline-block align-text-top">
+          <em><strong>LeoZ</strong></em>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Portifólio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Quem sou</a>
+            </li>
+            
+          </ul>
+          <div class="d-flex">
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Fale Comigo</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Botão Dark-Light
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="darkSwitch">
+        <label class="form-check-label" for="darkSwitch">Modo Escuro</label>
+      </div>
+      -->
+
+    </nav>
+
+    <!-- Button trigger modal - onde o alvo foi retirado e colado na div 
+      do "fale conosco" 
+    <button type="button" class="btn btn-primary" >
+      Launch demo modal
+    </button>
+    -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <input type="text" placeholder="Nome completo" class="form-control mt-2">
+
+              <input type="email" placeholder="email" class="form-control mt-2">
+
+              <input type="text" placeholder="Assunto" class="form-control mt-2">
+
+              <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua menssagem" class="form-control mt-2"></textarea>
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Cabecalho-->
+    <header class="container my-4 "> 
+      <div class="row align-items-center" style="padding-top:50px !important">
+        <div class="col-12 col-lg-5 pt-5">
+          <h2 class="text-center text-md-start mt-5">Uma amostra do desenvolvimento de uma pagina web, que<span class="text-primary"> se tornará um projeto maior</span> a medida que for aprimorado.</h2>
+          <p class="lead text-muted text-md-start mt-4">Venha acompanhar o meu desenvolvimento </p>
+          <p></p>
+          <div class="mt-5">
+            <a href="#" ><button class="btn btn-outline-primary btn-lg">Saiba mais</button></a> 
+            <a href="Sobre_Mim.html" target="_blank" rel="noopener noreferrer"><button class="btn btn-primary btn-lg">Venha me conhecer</button></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-7 p-5">
+          <img src="imagens\Blog Banner2.gif" alt="1260px" width="2240px" class="img-fluid">
+        </div>
+      </div>
+    </header>
+
+    <!--Cards com icons-->
+    <div class="container mb-5 ">
+      <div class="row ">
+
+        <div class="col-4">
+          <div class="card border-0 bg-light text-dark">
+            <i class="bi bi-toggles text-primary ms-3" style="font-size: 3rem;"></i>
+            <div class="card-body ">
+              <h5 class="card-title">Acompanhe a pagina</h5>
+              <p class="card-text">A medida que o projeto for evoluindo, essa pagina também sera evoluida.</p>
+              <a href="#" class="btn btn-primary">Dê uma olhada!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card border-0 bg-light text-dark">
+            <i class="bi bi-spotify text-primary ms-3" style="font-size: 3rem;"></i>
+            <div class="card-body">
+              <h5 class="card-title">Experimente minha playlist</h5>
+              <p class="card-text">Composta pela minha seleção de gosto único e peculiar de musicas, agradaveis a todos os momentos.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Desculpe-me!" 
+              data-bs-content="Mas eu tenho um gosto duvidoso, afinal, quem ainda escuta Mamonas Assassinas?">Confira e aproveite</button>
+              <!--<a href="#" class="btn btn-primary">Confira e aproveite</a>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card border-0 bg-light text-dark">
+            <i class="bi bi-youtube text-primary ms-3" style="font-size: 3rem;"></i>
+            <div class="card-body">
+              <h5 class="card-title">Aprenda mais</h5>
+              <p class="card-text">Meu canal no Youtube com playlist composta de varios tutoriais de todos os gostos.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Foi mal!" 
+              data-bs-content="Mas o acesso ao youtube foi restringido.">Segue lá</button>
+             <!-- <a href="#" class="btn btn-primary">Segue lá</a> -->
+            </div>
+          </div>
+        </div>      
+
+      </div>
+    </div>
+         
+    <div class="container ">  
+      <h3 class="text-center "><strong>NEWSLETTER</strong><small class="text-muted"> demo</small></h3> 
+      <hr>
+      <P>
+        Venha assinar minha newlist, receba atualizações, informações e participe das discuções sobre o projeto.
+      </P> 
+      <div class="row justify-content-center offset-custom-3"> 
+        <!-- Formulário de Inscrição -->
+        <form class="row g-1">
+          <div class="col-auto">
+            <label for="email" class="visually-hidden">Inscreva-se na nossa Newsletter: </label>
+            <input type="email" class="form-control" id="email" placeholder="seuemail@aqui.com">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Inscreva-se Aqui</button>
+          </div>
+        </form>
+      </div> 
+    </div>
+
+
+    <!--Rodapé fim de pagina-->
+    <footer class="mt-2 text-center p-0">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p>"Começando lá atras, que chegamos aqui na frente."</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Alguém, <cite title="Source Title">não famoso</cite>
+        </figcaption>
+      </figure>
+      Todos os direitos reservados a <em>LeoZ Produções 100Noções</em>
+    </footer>
+
+    <!-- JQuerys-->
+    <script src="js/jquery.js"></script>
+    <script src="js/dark-mode.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with JavaScript and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+     <!-- Adição do codigo de ativação do Popover-->
+     <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+  </body>
+</html>
