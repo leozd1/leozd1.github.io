@@ -14,6 +14,13 @@ p{
   text-align: center;
 }
 
+#pBlue {
+  font-size: 17px;
+  font-family: Arial, Helvetica;
+  text-align: center;
+  color: rgb(0, 102, 255);
+}
+
 h3{
   font-family: Arial, Helvetica;
   color: rgb(0, 102, 255);
